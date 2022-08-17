@@ -32,7 +32,7 @@ Mat VimbaGrabPicture() {
         cout << std::to_string(i) + ": " + name + "; " + model << endl;
     }
 
-    cout << Choose Camera-ID: ";
+    cout << "Choose Camera-ID: ";
     cin >> s;
     CameraPtr camera = cameras[0];
     FramePtr frame;
