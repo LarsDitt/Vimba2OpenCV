@@ -60,6 +60,7 @@ Mat VimbaGrabPicture() {
 	    //Somehow you need to convert to RGB instead of BGR with OpenCV, if you record your picture in the Bayer-Colorspaces?
             cvtColor(image_bgr, image_bgr, COLOR_BayerRG2RGB);
             cout << "[Vimba] Succsess";
+	    return image_bgr;
         }
         else {
             cout << "[Vimba] Error";
