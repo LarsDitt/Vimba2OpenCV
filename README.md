@@ -1,6 +1,6 @@
 # Vimba2OpenCV
 
-This is a minimal to use example how to grab a picture with Vimba and make it usable in OpenCV in C++. 
+This is a minimal use example how to grab a picture with Vimba and make it usable in OpenCV in C++. 
 
 ## Setting up Vimba in Visual Studio 2019
 
